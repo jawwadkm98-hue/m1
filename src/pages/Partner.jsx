@@ -16,7 +16,6 @@ export default function Partner() {
   const handleSubmit = async (e) => {
     e.preventDefault()
     setLoading(true)
-    // Simulate submission — connect HubSpot API token here when ready
     await new Promise(r => setTimeout(r, 1000))
     setLoading(false)
     setSubmitted(true)
