@@ -39,7 +39,6 @@ export default function Navbar() {
           <span className="navbar__logo-dist">DISTRIBUTORS</span>
         </Link>
 
-        {/* Desktop links */}
         <ul className="navbar__links">
           {navLinks.map(link => (
             <li key={link.to}>
@@ -53,7 +52,6 @@ export default function Navbar() {
           ))}
         </ul>
 
-        {/* Hamburger */}
         <button
           className="navbar__hamburger"
           onClick={() => setMenuOpen(!menuOpen)}
@@ -63,7 +61,6 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* Mobile menu */}
       <div className={`navbar__mobile ${menuOpen ? 'navbar__mobile--open' : ''}`}>
         <ul className="navbar__mobile-links">
           {navLinks.map(link => (

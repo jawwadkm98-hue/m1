@@ -1,6 +1,6 @@
 import { useState, useRef } from 'react'
 import { useAuth } from '../context/AuthContext'
-import { LogOut, Upload, Eye, Save } from 'lucide-react'
+import { LogOut, Upload, Save } from 'lucide-react'
 import './Admin.css'
 
 const DEFAULT_IMAGES = [

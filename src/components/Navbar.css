@@ -95,7 +95,6 @@
   color: var(--gold);
 }
 
-/* Mobile menu */
 .navbar__mobile {
   display: none;
   position: fixed;
